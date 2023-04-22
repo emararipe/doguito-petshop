@@ -24,17 +24,17 @@
                 <fieldset>
                     <legend class="formulario__legenda">Informações básicas</legend>
                     <div class="input-container">
-                        <input name="nome" id="nome" class="input" type="text" placeholder="Nome" required>
+                        <input name="nome" id="nome" class="input" type="text" placeholder="Nome" data-tipo="nome" required>
                         <label class="input-label" for="nome">Nome</label>
                         <span class="input-mensagem-erro">Este campo não está válido</span>
                     </div>
                     <div class="input-container">
-                        <input name="email" id="email" class="input" type="email" pattern="^((([!#$%&'*+\-/=?^_`{|}~\w])|([!#$%&'*+\-/=?^_`{|}~\w][!#$%&'*+\-/=?^_`{|}~\.\w]{0,}[!#$%&'*+\-/=?^_`{|}~\w]))[@]\w+([-.]\w+)*\.\w+([-.]\w+)*)$" title="Por favor, insira um endereço de e-mail válido. Ex.: user@domain.com, user@edu.br" placeholder="Email" required>
+                        <input name="email" id="email" class="input" type="email" pattern="^((([!#$%&'*+\-/=?^_`{|}~\w])|([!#$%&'*+\-/=?^_`{|}~\w][!#$%&'*+\-/=?^_`{|}~\.\w]{0,}[!#$%&'*+\-/=?^_`{|}~\w]))[@]\w+([-.]\w+)*\.\w+([-.]\w+)*)$" title="Por favor, insira um endereço de e-mail válido. Ex.: user@domain.com, user@edu.br" placeholder="Email" data-tipo="email" required>
                         <label class="input-label" for="email">Email</label>
                         <span class="input-mensagem-erro">Este campo não está válido</span>
                     </div>
                     <div class="input-container">
-                        <input name="senha" id="senha" class="input" type="password" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*[ !@#$%&*_=+-]).{6,12}$" title="A senha deve conter entre 6 e 12 caracteres, contendo pelo menos uma letra maiúscula, um número e não deve conter símbolos" placeholder="Senha" required>
+                        <input name="senha" id="senha" class="input" type="password" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*[ !@#$%&*_=+-]).{6,12}$" title="A senha deve conter entre 6 e 12 caracteres, contendo pelo menos uma letra maiúscula, um número e não deve conter símbolos" placeholder="Senha" data-tipo="senha" required>
                         <label class="input-label" for="senha">Senha</label>
                         <span class="input-mensagem-erro">Este campo não está válido</span>
                     </div>
