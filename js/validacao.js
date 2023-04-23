@@ -55,13 +55,25 @@ const mensagensDeErro = {
   },
 
   cpf: {
-    valueMissing: "O campo da CPF de nascimento não pode estar em vazio.",
+    valueMissing: "O campo CPF não pode estar em vazio.",
     customError: "Por favor, insira um CPF válido.",
   },
 
   cep: {
-    valueMissing: "O campo da CEP de nascimento não pode estar em vazio.",
+    valueMissing: "O campo CEP não pode estar em vazio.",
     patternMismatch: "Por favor, insira um formato de CEP válido. Ex.: 00000-000, 00000000",
+  },
+
+  logradouro: {
+    valueMissing: "O campo logradouro não pode estar em vazio.",
+  },
+
+  cidade: {
+    valueMissing: "O campo cidade não pode estar em vazio.",
+  },
+
+  estado: {
+    valueMissing: "O campo estado não pode estar em vazio.",
   }
 
 };
