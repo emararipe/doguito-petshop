@@ -50,7 +50,7 @@ const mensagensDeErro = {
   },
 
   dataNascimento: {
-    valueMissing: "O campo da data de nascimento não pode estar em vazio.",
+    valueMissing: "O campo data de nascimento não pode estar em vazio.",
     customError: "Você precisa ter mais de 18 anos para se cadastrar.",
   },
 
