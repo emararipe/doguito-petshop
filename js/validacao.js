@@ -78,6 +78,14 @@ const mensagensDeErro = {
   estado: {
     valueMissing: "O campo estado não pode estar em vazio.",
   },
+
+  nome: {
+    valueMissing: "O campo nome não pode estar em vazio.",
+  },
+
+  preco: {
+    valueMissing: "O campo preco não pode estar em vazio.",
+  },
 };
 
 const validadores = {
@@ -195,18 +203,18 @@ function recuperarCEP(input) {
         return;
       }
       input.setCustomValidity("");
-      preencheCamposCEP(data)
+      preencheCamposCEP(data);
     }
     pegarCEP();
   }
 }
 
 function preencheCamposCEP(data) {
-  const logradouro = document.querySelector('[data-tipo="logradouro"]')
-  const cidade = document.querySelector('[data-tipo="cidade"]')
-  const estado = document.querySelector('[data-tipo="estado"]')
+  const logradouro = document.querySelector('[data-tipo="logradouro"]');
+  const cidade = document.querySelector('[data-tipo="cidade"]');
+  const estado = document.querySelector('[data-tipo="estado"]');
 
-  logradouro.value = data.logradouro
-  cidade.value = data.localidade
-  estado.value = data.uf
+  logradouro.value = data.logradouro;
+  cidade.value = data.localidade;
+  estado.value = data.uf;
 }
