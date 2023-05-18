@@ -7,7 +7,7 @@ O Doguito Petshop foi um projeto realizado no curso "JavaScript na Web: validaç
 
 Sua proposta é ser uma página de cadastro individual para clientes do Doguito Petshop. As informações de cada cliente são recebidas através de um formulário com inputs de diferentes tipos de dados a serem validados. 
 
-O HTML e o CSS foi forcenido no início do curso, para em cima dele, ser desenvolvida a programação das funcionalidades. Segue a visão geral da interface:
+O HTML e o CSS foi fornecido no início do curso, para em cima dele, ser desenvolvida a programação das funcionalidades. Segue a visão geral da interface:
 
 ![Visão geral Doguito Petshop](https://github.com/emararipe/doguito-petshop/assets/115882935/53614995-129c-4b2d-9970-4d1999b96180)
 
